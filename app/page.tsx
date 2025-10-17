@@ -1,11 +1,14 @@
-import React from 'react'
+import { Button } from "@/components/ui/button";
+import React from "react";
 
 const Home = () => {
   return (
     <div>
-        DevPost Page
-    </div>
-  )
-}
+      <h1> Welcome to the Home Page </h1>
 
-export default Home
+      <Button>Click ME</Button>
+    </div>
+  );
+};
+
+export default Home;
